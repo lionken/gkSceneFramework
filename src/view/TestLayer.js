@@ -5,7 +5,7 @@ var TestLayer = cc.Layer.extend({
     //TODO：在此处拓展
     ctor: function() {
         this._super();
-        var a = 0;
+ 
         this.mainNode = new cc.LayerColor(cc.color(192, 192, 192, 255), GK.screen_width, GK.screen_height);
         this.mainNode.setPosition(cc.p(0, 0));
         this.addChild(this.mainNode, 0);
